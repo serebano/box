@@ -1,0 +1,19 @@
+import '../src/koa/test'
+
+// import box from '../src'
+// import edit from './edit'
+// import counter from './counter'
+// import app from './app'
+//
+// let state = {}
+//
+// function set(payload) {
+//     state = Object.assign({}, state, payload)
+//     <app root='div#app' state set />
+// }
+//
+// set({
+//     count: 10,
+//     name: 'Demo Appa',
+//     message: 'hello world'
+// })

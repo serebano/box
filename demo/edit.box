@@ -1,0 +1,6 @@
+<edit({ value, onInput }) export default>
+    <div>
+        <p text>Edit</p>
+        <input value on-input />
+    </div>
+</edit>

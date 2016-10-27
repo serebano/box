@@ -1,0 +1,23 @@
+import edit from './edit'
+import counter from './counter'
+
+const style = {
+    display: 'block',
+    background: '#f4f4f4',
+    padding: 24,
+    fontSize: 16
+}
+
+<app({ state, set }) export default>
+
+    const onInput = (e) => set({ name: e.target.value })
+
+    <section style>
+        <h1>state.name</h1>
+        <edit value=(state.name) on-input />
+        <counter
+            value=(state.count)
+            on-inc=[set, { count: state.count + 1 }]
+            on-dec=[set, { count: state.count - 1 }] />
+    </section>
+</app>

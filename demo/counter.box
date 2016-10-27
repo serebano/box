@@ -1,0 +1,8 @@
+<counter({ value, onInc, onDec }) export default>
+    <section style={ background: '#eee', padding: 16 }>
+        <h1>String(value)</h1>
+        <hr />
+        <button on-click=onInc>'Increment'</button>
+        <button on-click=onDec>'Decrement'</button>
+    </section>
+</counter>
